@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/iloveryuux/rules/compare/v1.1.0...v1.1.1) (2024-08-06)
+
+
+### Bug Fixes
+
+* imports ([c74d260](https://github.com/iloveryuux/rules/commit/c74d26016c2de424b03283e812e5165365344002))
+
 ## [1.1.0](https://github.com/iloveryuux/rules/compare/v1.0.0...v1.1.0) (2024-08-06)
 
 
