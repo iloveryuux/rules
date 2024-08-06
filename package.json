@@ -2,7 +2,11 @@
   "name": "@ryuux/rules",
   "version": "1.0.0",
   "description": "configuration files for various tools.",
-  "keywords": ["config", "rules", "package"],
+  "keywords": [
+    "config",
+    "rules",
+    "package"
+  ],
   "author": "Ryo",
   "license": "MIT"
 }
