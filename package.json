@@ -2,11 +2,31 @@
   "name": "@ryuux/rules",
   "version": "1.0.0",
   "description": "configuration files for various tools.",
-  "keywords": [
-    "config",
-    "rules",
-    "package"
-  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "fmt": "biome format --write",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["config", "rules", "package"],
   "author": "Ryo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/types": "^19.0.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "esbuild": "^0.23.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "exports": {
+    "commitlint": {
+      "import": "./dist/commitlint.js",
+      "require": "./dist/commitlint.cjs"
+    },
+    "biome": "./src/biome/base.json",
+    "typescript": "./src/typescript/base.json",
+    "prettier": "./src/prettier/base.json"
+  }
 }
