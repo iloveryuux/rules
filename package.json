@@ -3,6 +3,10 @@
   "version": "1.1.0",
   "description": "configuration files for various tools.",
   "type": "module",
+  "files": [
+    "dist/**/*",
+    "src/**/*.json"
+  ],
   "scripts": {
     "build": "tsup",
     "fmt": "biome format --write",
@@ -25,12 +29,12 @@
     "typescript": "^5.5.4"
   },
   "exports": {
-    "commitlint": {
+    "./commitlint": {
       "import": "./dist/commitlint.js",
       "require": "./dist/commitlint.cjs"
     },
-    "biome": "./src/biome/base.json",
-    "typescript": "./src/typescript/base.json",
-    "prettier": "./src/prettier/base.json"
+    "./biome": "./src/biome/base.json",
+    "./typescript": "./src/typescript/base.json",
+    "./prettier": "./src/prettier/base.json"
   }
 }
