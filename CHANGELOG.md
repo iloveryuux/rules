@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/iloveryuux/rules/compare/v1.1.1...v1.1.2) (2024-08-06)
+
+
+### Bug Fixes
+
+* remove console log and export ([9865038](https://github.com/iloveryuux/rules/commit/986503816cb0ad248155d5b12c7d00024d64eadd))
+
 ## [1.1.1](https://github.com/iloveryuux/rules/compare/v1.1.0...v1.1.1) (2024-08-06)
 
 
