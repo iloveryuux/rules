@@ -75,5 +75,3 @@ export const gitmoji: string[] = Object.keys(gitmojiObject).map(key => {
   const { emoji, type } = gitmojiObject[key]
   return `${emoji} ${type}`
 })
-
-console.log(gitmoji)

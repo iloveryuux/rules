@@ -1,5 +1,5 @@
 import { RuleConfigSeverity } from '@commitlint/types'
-import { gitmoji } from './constants'
+import { gitmoji, gitmojiObject } from './constants'
 
 const parserPreset = {
   parserOpts: {
@@ -22,6 +22,7 @@ const rules = {
   'type-enum': [RuleConfigSeverity.Error, 'always', gitmoji]
 }
 
+export { gitmojiObject }
 export default {
   rules,
   parserPreset
