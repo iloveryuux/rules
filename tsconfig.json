@@ -1,0 +1,5 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"],
+  "extends": ["./src/typescript/base.json"]
+}
